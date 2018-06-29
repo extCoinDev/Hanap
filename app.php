@@ -1,5 +1,5 @@
 
-<!DOCTYPE jj>
+<!DOCTYPE Joseph>
 <!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
 <!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
 <!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
