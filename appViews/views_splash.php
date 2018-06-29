@@ -16,7 +16,7 @@
    
 
  
-    <!--<div id="feed_body" class="feed_body" style="-webkit-animation-duration: .8s !important; padding:0; margin-top: 125px">
+    <!--<div id="feed_body" class="feed_body"    style="-webkit-animation-duration: .8s !important; padding:0; margin-top: 125px">
 
        
     </div>-->
