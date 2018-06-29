@@ -64,7 +64,7 @@
 
         <div onclick="show_view('pages_geneology'); " class="sidebar_menu_item w3-ripple">
             <div class="w3-col s1 sidebar_menu_item_icon">
-                <i class="fas fa-star" onclick="" style="color: #414042; font-size: 24px; float: left"></i>
+                <i class="fab fa-apple" onclick="" style="color: #414042; font-size: 24px; float: left"></i>
             </div>
 
             <div class="w3-col s9" style="display: inline-block;  margin-top:4px; margin-left:25px">

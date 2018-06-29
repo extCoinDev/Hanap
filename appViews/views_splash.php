@@ -11,7 +11,7 @@
     
     <h3 class="w3-display-bottommiddle" style="text-align:center; margin-bottom:100px;padding:0px;width:300px;"></h3>
 
-    <h5 class="w3-display-bottommiddle" style="text-align:center; margin-bottom:120px;padding:0px;width:300px;">Tap anywhere to start</h5>
+    <h1 class="w3-display-bottommiddle" style="text-align:center; margin-bottom:120px;padding:0px;width:300px;">Hanap</h1>
     <h5 class="w3-display-bottommiddle" style="text-align:center; margin-bottom:60px;padding:0px;width:300px;">Or swipe up to learn more</h5>
    
 
