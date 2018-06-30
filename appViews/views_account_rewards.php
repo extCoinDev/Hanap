@@ -16,7 +16,7 @@
             </div>
 
 
-            <h6 style="text-align: center; color: #BDBDBD; margin-top:15px">EthXpert 2018</h6>
+            <h6 style="text-align: center; color: #BDBDBD; margin-top:15px">HANAP 2018</h6>
 
         </div>
     </div>
