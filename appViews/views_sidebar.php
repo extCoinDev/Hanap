@@ -77,7 +77,7 @@
                 <i class="fa fa-lock" onclick="" style="color: #414042; font-size: 24px; float: left"></i>
             </div>
             <div class="w3-col s9" style="display: inline-block; margin-top:4px; margin-left:25px">
-                <h6 style="display: inline; color: #414042; font-size: 17px">Accounts</h6>
+                <h6 style="display: inline; color: #414042; font-size: 17px">My Account</h6>
             </div>
         </div>
 
