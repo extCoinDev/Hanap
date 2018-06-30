@@ -68,7 +68,7 @@
             </div>
 
             <div class="w3-col s9" style="display: inline-block;  margin-top:4px; margin-left:25px">
-                <h6 style="display: inline; color: #414042; font-size: 17px">Earn Rewards</h6>
+                <h6 style="display: inline; color: #414042; font-size: 17px">Home</h6>
             </div>
         </div>
 
@@ -77,7 +77,7 @@
                 <i class="fa fa-lock" onclick="" style="color: #414042; font-size: 24px; float: left"></i>
             </div>
             <div class="w3-col s9" style="display: inline-block; margin-top:4px; margin-left:25px">
-                <h6 style="display: inline; color: #414042; font-size: 17px">Buckup Funds</h6>
+                <h6 style="display: inline; color: #414042; font-size: 17px">Account</h6>
             </div>
         </div>
 
@@ -87,7 +87,7 @@
                 <i class="fa fa-location-arrow" onclick="" style="color: #414042; font-size: 24px; float: left"></i>
             </div>
             <div class="w3-col s9" style="display: inline-block; margin-top:4px; margin-left:25px">
-                <h6 style="display: inline; color: #414042; font-size: 17px">EXT Addresses</h6>
+                <h6 style="display: inline; color: #414042; font-size: 17px">Products</h6>
             </div>
         </div>
 
@@ -97,7 +97,7 @@
             </div>
 
             <div class="w3-col s9" style="display: inline-block;  margin-top:4px; margin-left:25px">
-                <h6 style="display: inline; color: #414042; font-size: 17px">Limits and Verification</h6>
+                <h6 style="display: inline; color: #414042; font-size: 17px">Orders</h6>
             </div>
         </div>
 
@@ -107,7 +107,7 @@
             </div>
 
             <div class="w3-col s9" style="display: inline-block;  margin-top:4px; margin-left:25px">
-                <h6 style="display: inline; color: #414042; font-size: 17px">Pending Requests</h6>
+                <h6 style="display: inline; color: #414042; font-size: 17px">Apps</h6>
             </div>
         </div>
 
@@ -117,7 +117,7 @@
             </div>
 
             <div class="w3-col s9" style="display: inline-block;  margin-top:4px; margin-left:25px">
-                <h6 style="display: inline; color: #414042; font-size: 17px">Support</h6>
+                <h6 style="display: inline; color: #414042; font-size: 17px">Encashment</h6>
             </div>
         </div>
                
