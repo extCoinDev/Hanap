@@ -10,7 +10,7 @@
 
         <div id="loginForm" class="login-form" style="background-color: rgba(238, 238, 238, 0);  -webkit-animation-duration:.5s">
 
-            <form onsubmit="return tryLogin();">                
+            <form onsubmit="return login();">                
                 <div style=" margin-bottom: 25px;">
                     <img src="dependencies/images/logo.png" alt="" class="" style="width:128px; display:block; margin-left:auto; margin-right:auto;" />
 

@@ -25,7 +25,7 @@ var devNo = 0;
 var tmp_extequi_buy = 0;
 var tmp_btcequi_buy = 0;
 var tmp_etxtx = '';
-
+var pageb4 = '';
 
 window.setTimeout(function () { showSplash(); }, 100);
 
@@ -47,7 +47,6 @@ function hidePreload() {
     window.setTimeout(function () { document.getElementById('preloader').style.display = "none"; }, 700);
   
 }
-var pageb4 = '';
 
 function showScreenGuard() {
     document.getElementById('screenguard').style.display = 'block';
@@ -316,7 +315,8 @@ function login() {
     }, 500);
     //draw();
     //animate();
-    timeTick();
+    //timeTick();
+    return false
   
 }
 
@@ -1344,7 +1344,7 @@ function showMsg_close() {
 
 
 //HAMMER LISTENERS
-  //  var splash_logo = new Hammer(document.getElementById("splash_logo"));
+  var splash_logo = new Hammer(document.getElementById("splash_logo"));
 
 //HAMMER ACTIONS
     splash_logo.on("pandown panup tap press", function (ev) {
