@@ -15,7 +15,7 @@
 <body>
     <!-- Preloader -->
     <div id="preloader" class="preloader animated" style="position: relative; animation-duration:.3s!important ">
-        <img src="dependencies/images/logo.svg" alt="" class="w3-display-middle" style="width:150px; " />
+        <img src="dependencies/images/logo_name.svg" alt="" class="w3-display-middle" style="width:150px; " />
         <!--<div id="status"></div>-->
     </div>
     <?php include('overlays.php'); ?>
