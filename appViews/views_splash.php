@@ -19,11 +19,11 @@
 
         <!--Login-->
 
-        <button class="w3-btn w3-round-xxlarge" style="color: white; background-color: #FFB516;width:200px;height:35px;margin-top:-24%;margin-right:auto;margin-left:auto;display:block">Login</button>
+        <button class="w3-btn w3-round-xxlarge" style="color: white; background-color: #FFB516;width:90%;height:45px;margin-top:-24%;margin-right:auto;margin-left:auto;display:block;font-size:15px">Login</button>
 
         <!--Signup-->
 
-        <button class="w3-btn w3-white w3-round-xxlarge w3-border" style="width: 200px; height: 35px; margin-top: 5%; margin-right: auto; margin-left: auto; display: block; color: #FFB516 !important; border-color: #FFB516!important; ">Sign Up</button>
+        <button class="w3-btn w3-white w3-round-xxlarge w3-border" style="width: 90%; height: 45px; margin-top: 5%; margin-right: auto; margin-left: auto; display: block; color: #FFB516 !important; border-color: #FFB516 !important; font-size: 15px;">Sign Up</button>
 
         <hr style="width: 20%; border-width: 1px; border-color: #CC8133!important;margin-right:auto;margin-left:12%;margin-top:8%">
 
