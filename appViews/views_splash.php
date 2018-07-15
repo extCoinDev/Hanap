@@ -7,12 +7,52 @@
             <h6 onclick="close_view('pages_login');" style="display: inline; color: white; font-size: 17px"></h6>
         </div>
 
-    </div>-->
+    </div>
+        -->
+    <div class="w3-display-middle" style="margin-top:-7%;width:90%">
 
-  
-       <!--POGI SI DEXTER-->
+        <img src="dependencies/images/logo.svg" style="width:170px;height:170px;margin-top:20%;margin-left:auto;margin-right:auto;display:block">
 
-  
+        <img src="dependencies/images/logo_name.svg" style="display: block; margin-left: auto; margin-right: auto;margin-top:-10%; width: 150px; height: 150px">
+
+        <p style="color: #FFB516; display: block; margin-left: auto; margin-right: auto; width: 150px; height: 150px;text-align:center;margin-top:-10% ">Universal Product and Services Platform</p>
+
+        <!--Login-->
+
+        <button class="w3-btn w3-round-xxlarge" style="color: white; background-color: #FFB516;width:200px;height:35px;margin-top:-24%;margin-right:auto;margin-left:auto;display:block">Login</button>
+
+        <!--Signup-->
+
+        <button class="w3-btn w3-white w3-round-xxlarge w3-border" style="width: 200px; height: 35px; margin-top: 5%; margin-right: auto; margin-left: auto; display: block; color: #FFB516 !important; border-color: #FFB516!important; ">Sign Up</button>
+
+        <hr style="width: 20%; border-width: 1px; border-color: #CC8133!important;margin-right:auto;margin-left:12%;margin-top:8%">
+
+        <p style="color:#CC8133; display: block; margin-left: auto; margin-right: auto;font-size:x-small;margin-top:-8%;text-align:center">OR CONNECT WITH</p>
+
+        <hr style="width: 20%; border-width: 1px; border-color: #CC8133!important;margin-right:11%;margin-left:auto;margin-top:-6%">
+
+
+        <!--facebook -->
+
+        <div class="w3-row" style="margin-top:-3%">
+            <div class="w3-col s6 m6 l6 w3-padding-12">
+                <button class="w3-btn w3-round-xxlarge" style="color: white; background-color: #204BCF; width: 75%; height: 35px; display: block; padding-left: 20px; padding-right: 20px; padding-top: 10px; margin-left:21px ">
+
+                    <i class="fab fa-facebook-f" onclick="" style="color:white; font-size: 15px; float: left;margin-right:10%"></i> Facebook
+                </button>
+            </div>
+
+            <!--google-->
+
+            <div class="w3-col s6 m6 l6 w3-padding-12">
+                <button class="w3-btn w3-round-xxlarge" style="color: white; background-color: #DB2D2B; width: 75%; height: 35px; margin-top: auto; margin-right: auto; margin-left: auto; display: block; padding-left: 20px; padding-right: 20px; padding-top: 10px; ">
+
+                    <i class="fab fa-google" onclick="" style="color:white; font-size: 15px; float: left"></i> Google
+                </button>
+            </div>
+        </div>
+    </div>
+
 
 
 </div>
