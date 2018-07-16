@@ -40,6 +40,24 @@ html {
   touch-action: manipulation;
 }
 
+.dex
+    {
+        font-size: 45px; 
+        color: white;
+        margin-top:50px
+   
+}
+
+@media (max-width:320px) {
+    .dex
+    {
+        font-size: 40px; 
+        color: white;
+        margin-top:50px
+}
+
+
+}
 
 @keyframes color-animation {
     0% {

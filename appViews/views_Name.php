@@ -12,26 +12,53 @@
         </h6>
        
         <!--ENTER YOUR NAME-->
-        <div class="" style="padding-right: 20px; margin-left: auto; margin-right: auto;display:block;padding-bottom:50px;padding-left:10px;margin-bottom:auto;">
-            <h1 class="" style="font-size: 45px; color: white">
+        <div class="" style="padding-right: 20px; margin-left: auto; margin-right: auto;display:block;padding-bottom:20px;padding-left:10px;margin-bottom:auto;">
+            <h1 class="dex">
                 Enter Your Name
             </h1>
         </div>
        
         <!--CIRCLES-->
-        <div class="w3-display-bottomright" style="margin-bottom: 25px;margin-right:25px;margin-left:auto;display:block;padding-top:20px;">
+        <div class="w3-display-bottomright" style="margin-bottom: 25px;margin-right:20px;margin-left:auto;display:block;padding-top:20px;">
             
-            <i class="fa fa-circle" style="font-size: 10px; color: White;margin-right:15px;"></i>
-            <i class="fa fa-circle" style="font-size: 10px; color: #ffffff7d;margin-right:15px;"></i>
-            <i class="fa fa-circle" style="font-size: 10px; color: #ffffff7d;margin-right:15px;"></i>
-            <i class="fa fa-circle" style="font-size: 10px; color: #ffffff7d;margin-right:15px;"></i>
-            <i class="fa fa-circle" style="font-size: 10px; color: #ffffff7d;margin-right:15px;"></i>
-            <i class="fa fa-circle" style="font-size: 10px; color: #ffffff7d;margin-right:15px;"></i>
-            <i class="fa fa-circle" style="font-size: 10px; color: #ffffff7d;margin-right:15px;"></i>
+            <i class="fa fa-circle" style="font-size: 10px; color: White;margin-right:10px;"></i>
+            <i class="fa fa-circle" style="font-size: 10px; color: #ffffff7d;margin-right:10px;"></i>
+            <i class="fa fa-circle" style="font-size: 10px; color: #ffffff7d;margin-right:10px;"></i>
+            <i class="fa fa-circle" style="font-size: 10px; color: #ffffff7d;margin-right:10px;"></i>
+            <i class="fa fa-circle" style="font-size: 10px; color: #ffffff7d;margin-right:10px;"></i>
+            <i class="fa fa-circle" style="font-size: 10px; color: #ffffff7d;margin-right:10px;"></i>
+            <i class="fa fa-circle" style="font-size: 10px; color: #ffffff7d;margin-right:10px;"></i>
             
       
         </div>
     </div>
+
+    <form class="w3-container">
+    
+    <div class="">
+    
+    
+
+<input class="w3-input" placeholder="e.g John Doe"  type="text" style="margin-top:40px;text-align:left; width:90%;margin-left:auto;margin-right:auto;font-size:20px;padding:30px;">
+
+</div>
+
+
+
+</form>
+
+<div class="">
+
+<button class="w3-round-xxlarge w3-blue w3-display-bottommiddle" style="font-size:15px;width:90%;height:45px;margin-left:auto;margin-right:auto;display:block;margin-bottom:20px;">Next</button>
+
+</div>
+
+
+
+
+
+
+
     <!--<div id="pageMenu_login" class="page_menu" style="animation-duration: .5s; background-color: rgba(0, 0, 0, 0); padding-top:35px; padding-left:15px">
         <i class="fa fa-chevron-left" onclick="close_view('pages_login','YES');" style="color:white; font-size:24px"></i>
         <div style="display: inline-block; position:absolute; margin-top:4px; margin-left:5px">
