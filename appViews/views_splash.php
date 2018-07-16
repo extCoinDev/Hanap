@@ -23,36 +23,36 @@
 
         <!--Signup-->
 
-        <button class="w3-btn w3-white w3-round-xxlarge w3-border" style="width: 90%; height: 45px; margin-top: 5%; margin-right: auto; margin-left: auto; display: block; color: #FFB516 !important; border-color: #FFB516 !important; font-size: 15px;">Sign Up</button>
+     
+            <button class="w3-btn w3-white w3-round-xxlarge w3-border" style="width: 90%; height: 45px; margin-top: 5%; margin-right: auto; margin-left: auto; display: block; color: #FFB516 !important; border-color: #FFB516 !important; font-size: 15px;">Sign Up</button>
 
-        <hr style="width: 20%; border-width: 1px; border-color: #CC8133!important;margin-right:auto;margin-left:12%;margin-top:8%">
+            <!--<hr style="width: 20%; border-width: 1px; border-color: #CC8133!important;margin-right:auto;margin-left:8%;margin-top:8%">-->
 
-        <p style="color:#CC8133; display: block; margin-left: auto; margin-right: auto;font-size:x-small;margin-top:-8%;text-align:center">OR CONNECT WITH</p>
+            <div style="margin-top:60px">
+                <p style="color: #CC8133; display: block; margin-left: auto; margin-right: auto; font-size: x-small; margin-top: -9%; text-align: center">OR CONNECT WITH</p>
 
-        <hr style="width: 20%; border-width: 1px; border-color: #CC8133!important;margin-right:11%;margin-left:auto;margin-top:-6%">
-
-
+        
         <!--facebook -->
 
-        <div class="w3-row" style="margin-top:-3%">
-            <div class="w3-col s6 m6 l6 w3-padding-12">
-                <button class="w3-btn w3-round-xxlarge" style="color: white; background-color: #204BCF; width: 75%; height: 35px; display: block; padding-left: 20px; padding-right: 20px; padding-top: 10px; margin-left:21px ">
+                <div class="w3-row" style="margin-top:-3%">
+                    <div class="w3-col s6 m6 l6 w3-padding-12">
+                        <button class="w3-btn w3-round-xxlarge" style="color: white; background-color: #204BCF; width: 75%; height: 35px; display: block; padding-left: 15px; padding-right: 20px; padding-top: 10px; margin-left: 21px;">
 
-                    <i class="fab fa-facebook-f" onclick="" style="color:white; font-size: 15px; float: left;margin-right:10%"></i> Facebook
-                </button>
-            </div>
+                            <i class="fab fa-facebook-f" onclick="" style="color:white; font-size: 15px; float: left;margin-right:10%"></i> Facebook
+                        </button>
+                    </div>
 
-            <!--google-->
+                    <!--google-->
 
-            <div class="w3-col s6 m6 l6 w3-padding-12">
-                <button class="w3-btn w3-round-xxlarge" style="color: white; background-color: #DB2D2B; width: 75%; height: 35px; margin-top: auto; margin-right: auto; margin-left: auto; display: block; padding-left: 20px; padding-right: 20px; padding-top: 10px; ">
+                    <div class="w3-col s6 m6 l6 w3-padding-12">
+                        <button class="w3-btn w3-round-xxlarge" style="color: white; background-color: #DB2D2B; width: 75%; height: 35px; margin-top: auto; margin-right: auto; margin-left: auto; display: block; padding-left: 20px; padding-right: 20px; padding-top: 10px; ">
 
-                    <i class="fab fa-google" onclick="" style="color:white; font-size: 15px; float: left"></i> Google
-                </button>
-            </div>
+                            <i class="fab fa-google" onclick="" style="color:white; font-size: 15px; float: left"></i> Google
+                        </button>
+                    </div>
+                </div>
         </div>
-    </div>
-
+  
 
 
 </div>
