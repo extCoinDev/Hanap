@@ -59,6 +59,45 @@ html {
 
 }
 
+.dex1
+    {
+        font-size: 45px; 
+        color: white;
+        margin-top:45px
+        
+}
+
+@media (max-width:450px) {
+    .dex1
+    {
+        font-size: 40px; 
+        color: white;
+        margin-top:20px
+}
+
+
+}
+
+.dex2
+    {
+        font-size: 30px; 
+       
+        margin-top:15px
+        
+}
+
+@media (max-width:320px) {
+    .dex2
+    {
+        font-size: 20px;
+        
+        margin-top:10px;
+        
+}
+
+
+}
+
 @keyframes color-animation {
     0% {
        filter:hue-rotate(0deg);

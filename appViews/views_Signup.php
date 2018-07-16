@@ -14,15 +14,15 @@
         <!--ENTER YOUR NAME-->
         <div class="" style="padding-right: 20px; margin-left: auto; margin-right: auto;display:block;padding-bottom:20px;padding-left:10px;margin-bottom:auto;">
             <h1 class="dex">
-                Enter Your Name
+                When is Your Birthday
             </h1>
         </div>
        
         <!--CIRCLES-->
         <div class="w3-display-bottomright" style="margin-bottom: 25px;margin-right:20px;margin-left:auto;display:block;padding-top:20px;">
             
-            <i class="fa fa-circle" style="font-size: 10px; color: White;margin-right:10px;"></i>
             <i class="fa fa-circle" style="font-size: 10px; color: #ffffff7d;margin-right:10px;"></i>
+            <i class="fa fa-circle" style="font-size: 10px; color: White;margin-right:10px;"></i>
             <i class="fa fa-circle" style="font-size: 10px; color: #ffffff7d;margin-right:10px;"></i>
             <i class="fa fa-circle" style="font-size: 10px; color: #ffffff7d;margin-right:10px;"></i>
             <i class="fa fa-circle" style="font-size: 10px; color: #ffffff7d;margin-right:10px;"></i>
