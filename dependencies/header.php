@@ -20,6 +20,7 @@ header("Pragma: no-cache"); // HTTP 1.0.
 
 
 <link rel="stylesheet" href="dependencies/css/bootstrap.min.css"> 
+<link rel="stylesheet" href="dependencies/cssthemify-icons.css"> 
 <link rel="stylesheet" type="text/css" href="dependencies/chart/css/highcharts.css">
 <!--<link rel="stylesheet" href="dependencies/css/owl.theme.css">
 <link rel="stylesheet" href="dependencies/css/owl.carousel.css">
