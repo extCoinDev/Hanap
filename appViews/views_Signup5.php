@@ -62,7 +62,7 @@
 
 <div class="">
 
-<button class="w3-round-xxlarge w3-blue w3-display-bottommiddle" style="font-size:15px;width:90%;height:45px;margin-left:auto;margin-right:auto;display:block;margin-bottom:20px;">Next</button>
+<button class="w3-round-xxlarge w3-blue w3-display-bottommiddle" onclick="show_view('pages_EnterName6','YES');close_view('pages_EnterName5');" style="font-size:15px;width:90%;height:45px;margin-left:auto;margin-right:auto;display:block;margin-bottom:20px;">Next</button>
 
 </div>
 

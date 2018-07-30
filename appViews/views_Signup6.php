@@ -14,7 +14,7 @@
         <!--ENTER YOUR NAME-->
         <div class="" style="padding-right: 100px; margin-left: auto; margin-right: auto;display:block;padding-bottom:20px;padding-left:10px;margin-bottom:auto;">
             <h1 class="dex1">
-                Products You Like Most
+                Your Contact Details
             </h1>
         </div>
        
@@ -41,7 +41,7 @@
 
 <div class="">
 
-<button class="w3-round-xxlarge w3-blue w3-display-bottommiddle" style="font-size:15px;width:90%;height:45px;margin-left:auto;margin-right:auto;display:block;margin-bottom:20px;">Finish</button>
+<button class="w3-round-xxlarge w3-blue w3-display-bottommiddle" onclick="show_view('pages_splash','YES');close_view('pages_EnterName6');" style="font-size:15px;width:90%;height:45px;margin-left:auto;margin-right:auto;display:block;margin-bottom:20px;">Finish</button>
 
 </div>
 

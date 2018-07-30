@@ -38,8 +38,8 @@
     <div class="">
     
    
-<select class="w3-select" name="option" Style="margin-top:40px;text-align:left; width:90%;margin-left:auto;margin-right:auto;font-size:15px;padding:30px;">
-  <option value="" disabled selected>Select Your Area</option>
+<select class="w3-select" name="option" Style="margin-top:51px; width:90%;margin-left:auto;margin-right:auto;font-size:15px;padding:30px;display:block;">
+  <option value="">Select Your Area</option>
   <option value="1" style="font-size:10px">Option 1</option>
   <option value="2" style="font-size:10px">Option 2</option>
   <option value="3" style="font-size:10px">Option 3</option>
@@ -53,7 +53,7 @@
 
 <div class="">
 
-<button class="w3-round-xxlarge w3-blue w3-display-bottommiddle" style="font-size:15px;width:90%;height:45px;margin-left:auto;margin-right:auto;display:block;margin-bottom:20px;">Next</button>
+<button class="w3-round-xxlarge w3-blue w3-display-bottommiddle" onclick="show_view('pages_EnterName4','YES');close_view('pages_EnterName3');" style="font-size:15px;width:90%;height:45px;margin-left:auto;margin-right:auto;display:block;margin-bottom:20px;">Next</button>
 
 </div>
 

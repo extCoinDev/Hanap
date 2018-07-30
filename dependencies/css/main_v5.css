@@ -6,6 +6,93 @@
     src:  url("../fonts/Metropolis-Regular.otf") format("opentype");
 }
 
+
+.gg{
+
+
+    position: absolute;
+width: 124px;
+height: 12px;
+left: 21px;
+top: 72px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 10px;
+
+color: #000000;
+
+}
+
+.gg1{
+
+    position: absolute;
+width: 107px;
+height: 17px;
+left: 21px;
+top: 85px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 7px;
+
+color: #000000;
+
+}
+
+.gg2
+{
+
+    position: absolute;
+width: 315.88px;
+height: 27.06px;
+left: 24px;
+top: 200px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 14.5px;
+
+display:inline-block;
+}
+
+.gg3
+{
+
+    position: absolute;
+width: 315.88px;
+height: 27.06px;
+left: 24px;
+top: 400px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 14.5px;
+display:inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 * {
     padding: 0;
     margin: 0;

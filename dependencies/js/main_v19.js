@@ -32,8 +32,12 @@ window.setTimeout(function () { showSplash(); }, 100);
 function showSplash() {
     hidePreload();
     //window.setTimeout(function () { show_view('pages_splash'); }, 500)
-    show_view('pages_splash');
-    window.setTimeout(function () { document.getElementById('pages_splash').style.animationDelay = '0s'; }, 1500);
+    //show_view('pages_splash');
+  show_view('pages_interface1')
+    window.setTimeout(function () {
+        document.getElementById('pages_splash').style.animationDelay = '0s';
+      
+    }, 1500);
 }
 
 function showPreload() {

@@ -1,4 +1,4 @@
-<div id="pages_splash" class="page animated slideInRight" style="animation-duration:.5s!important; overflow: hidden; z-index: 500 !important;width: 100%; padding-top: 0px; height:100vh; animation-delay:.5s">
+<div id="pages_splash" class="page animated slideInRight" style="animation-duration:.5s!important; overflow: hidden; z-index: 500 !important;width: 100%; padding-top: 0px; height:100vh; animation-delay:.5s; background-color:white;">
 
   
     <!--<div id="pageMenu_login" class="page_menu" style="animation-duration: .5s; background-color: rgba(0, 0, 0, 0); padding-top:35px; padding-left:15px">
@@ -19,12 +19,12 @@
 
         <!--Login-->
 
-        <button class="w3-btn w3-round-xxlarge" style="color: white; background-color: #FFB516;width:90%;height:45px;margin-top:-24%;margin-right:auto;margin-left:auto;display:block;font-size:15px">Login</button>
+        <button class="w3-btn w3-round-xxlarge" onclick="show_view('pages_splash1','YES');close_view('pages_splash');" style="color: white; background-color: #FFB516;width:90%;height:45px;margin-top:-24%;margin-right:auto;margin-left:auto;display:block;font-size:15px">Login</button>
 
         <!--Signup-->
 
      
-            <button class="w3-btn w3-white w3-round-xxlarge w3-border" style="width: 90%; height: 45px; margin-top: 5%; margin-right: auto; margin-left: auto; display: block; color: #FFB516 !important; border-color: #FFB516 !important; font-size: 15px;">Sign Up</button>
+            <button class="w3-btn w3-white w3-round-xxlarge w3-border" onclick="show_view('pages_EnterName','YES');close_view('pages_splash');" style="width: 90%; height: 45px; margin-top: 5%; margin-right: auto; margin-left: auto; display: block; color: #FFB516 !important; border-color: #FFB516 !important; font-size: 15px;">Sign Up</button>
 
             <!--<hr style="width: 20%; border-width: 1px; border-color: #CC8133!important;margin-right:auto;margin-left:8%;margin-top:8%">-->
 

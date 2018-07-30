@@ -5,24 +5,24 @@
     
     
     <!--SIGN UP-->
-    <div class=" w3-display-container " style="background-color: 2196F3; height: 50%; width: 100%; padding: 25px;">
-        <i class="fa fa-arrow-left" style="font-size: 20px; color: White;"></i>
+    <div class=" w3-display-container" style="background-color: 2196F3; height: 50%; width: 100%; padding: 25px;">
+        <i class="fa fa-arrow-left" onclick="show_view('pages_splash','YES');close_view('pages_EnterName');" style="font-size: 20px; color: White;"></i>
         <h6 class="" style="color: White; margin-top: 15px; font-size: 20px;margin-left:auto;margin-right:auto;display:block;">
             Sign Up
         </h6>
        
         <!--ENTER YOUR NAME-->
-        <div class="" style="padding-right: 20px; margin-left: auto; margin-right: auto;display:block;padding-bottom:20px;padding-left:10px;margin-bottom:auto;">
-            <h1 class="dex">
-                When is Your Birthday
+        <div class="" style="padding-right: 20px; margin-left: auto; margin-right: auto;display:block;padding-bottom:20px;padding-left:10px;padding-bottom:10px;">
+            <h1 class="dex1">
+                What is Your Name
             </h1>
         </div>
        
         <!--CIRCLES-->
         <div class="w3-display-bottomright" style="margin-bottom: 25px;margin-right:20px;margin-left:auto;display:block;padding-top:20px;">
             
-            <i class="fa fa-circle" style="font-size: 10px; color: #ffffff7d;margin-right:10px;"></i>
             <i class="fa fa-circle" style="font-size: 10px; color: White;margin-right:10px;"></i>
+            <i class="fa fa-circle" style="font-size: 10px; color: #ffffff7d;margin-right:10px;"></i>
             <i class="fa fa-circle" style="font-size: 10px; color: #ffffff7d;margin-right:10px;"></i>
             <i class="fa fa-circle" style="font-size: 10px; color: #ffffff7d;margin-right:10px;"></i>
             <i class="fa fa-circle" style="font-size: 10px; color: #ffffff7d;margin-right:10px;"></i>
@@ -49,7 +49,7 @@
 
 <div class="">
 
-<button class="w3-round-xxlarge w3-blue w3-display-bottommiddle" style="font-size:15px;width:90%;height:45px;margin-left:auto;margin-right:auto;display:block;margin-bottom:20px;">Next</button>
+<button class="w3-round-xxlarge w3-blue w3-display-bottommiddle" onclick="show_view('pages_EnterName1','YES');close_view('pages_EnterName');" style="font-size:15px;width:90%;height:45px;margin-left:auto;margin-right:auto;display:block;margin-bottom:20px;">Next</button>
 
 </div>
 
