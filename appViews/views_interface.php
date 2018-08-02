@@ -18,7 +18,7 @@
       </div>
           
 
-      <div class="w3-display-topright w3-circle w3-card-4"  style="font-size:30px;color:white;margin-left:auto;margin-right:15px;margin-top:15px;padding:11px">
+      <div class="w3-display-topright w3-circle w3-card-4"  onclick="show_view('pages_myprofile')" style="font-size:30px;color:white;margin-left:auto;margin-right:15px;margin-top:15px;padding:11px">
       <i class="fa fa-user"></i>
        </div>
       
