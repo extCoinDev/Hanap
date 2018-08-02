@@ -33,7 +33,7 @@ function showSplash() {
     hidePreload();
     //window.setTimeout(function () { show_view('pages_splash'); }, 500)
     //show_view('pages_splash');
-  show_view('pages_interface1')
+  show_view('pages_interface')
     window.setTimeout(function () {
         document.getElementById('pages_splash').style.animationDelay = '0s';
       

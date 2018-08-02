@@ -1,18 +1,15 @@
-<div id="pages_sidebar" class="sidebar-off animated slideInLeft w3-col m4 l3" style="overflow:hidden; -webkit-animation-duration:.3s; width:50%; border-radius: 0px 20px 20px 0px;">
+<div id="pages_sidebar" class="sidebar-off animated slideInLeft w3-col m4 l3" style="overflow:hidden; -webkit-animation-duration:.3s; width:50%; border-radius: 0px 15px 15px 0px;">
 
-<div class="page_menu" style="background-color: #FFE066; height:150px; border-radius: 0px 0px 20px 0px;">
-    <div class="page_menu" style="background-color: #FFE066; ">
+<div class="page_menu" style="background-color: #FFE066; height:150px; border-radius: 0px 0px 15px 0px;">
+    <div class="page_menu w3-display-container" style="background-color: #FFE066; ">
         
-    <img src="dependencies/images/logo_wname_r.svg" class="sidebarLogo" style="width: 90%"/>
+    <img src="dependencies/images/logo_wname_r.svg" class="sidebarLogo w3-display-middle" style="width: 80%"/>
 
         <h5 class="page_menu_title" style="margin-left:auto; position: absolute; margin-right:auto; color: white; text-align:center; width:100%; font-size:20px; font-weight:600"></h5>
 
         <div class="page_menu_btns" style=" position:absolute; width:100%; left:0; padding-right:10px; padding-left:10px">
         
-            <!--<i class="fa fa-chevron-left" onclick="closeSidebar();" style="color: black; font-size: 20px; float: left; margin-top: 2px; "></i>
-            <i class="fa fa-user" onclick="showProfile();" style="color: white; font-size: 24px; float: right; margin-top: 5px; "></i>
 
-        </div>-->
         </div>
     </div>
 </div>
@@ -55,7 +52,7 @@
               </div>
           </div>-->
 
-        <div onclick="show_view(''); closeSidebar();" class="sidebar_menu_item w3-ripple">
+        <div onclick="show_view('pages_myprofile'); closeSidebar();" class="sidebar_menu_item w3-ripple">
             <div class="w3-col s1 sidebar_menu_item_icon">
                 <i class="fas fa-user" onclick="" style="color: orange; font-size: 18px; float: left"></i>
             </div>
@@ -100,7 +97,7 @@
             </div>
 
             <div class="w3-col s9" style="display: inline-block;  margin-top:4px; margin-left:15px">
-                <h6 style="display: inline; color: black2; font-size: 15px">My Cancellations</h6>
+                <h6 style="display: inline; color: black; font-size: 15px">My Cancellations</h6>
             </div>
         </div>
 
