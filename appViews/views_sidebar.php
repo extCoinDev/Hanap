@@ -1,6 +1,6 @@
 <div id="pages_sidebar" class="sidebar-off animated slideInLeft w3-col m4 l3" style="overflow:hidden; -webkit-animation-duration:.3s; width:50%; border-radius: 0px 15px 15px 0px;">
 
-<div class="page_menu" style="background-color: #FFE066; height:150px; border-radius: 0px 0px 15px 0px;">
+<div class="page_menu w3-card-4" style="background-color: #FFE066; height:150px; border-radius: 0px 0px 15px 0px;">
     <div class="page_menu w3-display-container" style="background-color: #FFE066; ">
         
     <img src="dependencies/images/logo_wname_r.svg" class="sidebarLogo w3-display-middle" style="width: 80%"/>
