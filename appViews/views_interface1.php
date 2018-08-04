@@ -166,6 +166,36 @@
 
 
 
+<<<<<<< HEAD
+=======
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 76017cbdfdeec7e33dacdbb7277beb493e98f235
 
         <div class="w3-display-container" style="margin-top:85px">
             <div class="w3-display-bottomright w3-circle w3-card-4" style="font-size: 30px; background-color: #FFCA28; margin-left: auto; margin-right: 15px; padding: 13px">
@@ -187,6 +217,7 @@
 
         </div>
 
+</div>
 
 
 
