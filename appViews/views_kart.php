@@ -148,10 +148,11 @@
     <br />
     <br />
     <br />
-    <div class="w3-display-container">
+   
+    
+     
         <div class="w3-display-bottommiddle" style="margin-top:5px;width:100%">
             <button class="w3-round w3-btn" style="font-size:18px;width:100%;height:30px;background-color:orange;color:white;">PROCEED TO CHECKOUT</button>
         </div>
 
     </div>
-</div>
