@@ -1,4 +1,4 @@
-<div id="pages_search1" class="page animated slideInRight" style="animation-duration:.5s!important; overflow: hidden; z-index: 500 !important;width: 100%; padding-top: 0px; height:100vh; animation-delay:.5s; background-color:white;">
+<div id="pages_search_interface" class="page animated slideInRight" style="animation-duration:.5s!important; overflow: hidden; z-index: 500 !important;width: 100%; padding-top: 0px; height:100vh; animation-delay:.5s; background-color:white;">
 
 
     <!--<div id="pageMenu_login" class="page_menu" style="animation-duration: .5s; background-color: rgba(0, 0, 0, 0); padding-top:35px; padding-left:15px">
