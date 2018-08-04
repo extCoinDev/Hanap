@@ -33,7 +33,7 @@ function showSplash() {
     hidePreload();
     //window.setTimeout(function () { show_view('pages_splash'); }, 500)
     //show_view('pages_splash');
-  show_view('pages_interface1')
+    show_view('pages_kart');
     window.setTimeout(function () {
         document.getElementById('pages_splash').style.animationDelay = '0s';
       
@@ -57,7 +57,9 @@ function showScreenGuard() {
 }
 
 function show_view(view_name) {
-    
+
+
+
     if (document.body.clientWidth > 599) {
       
         if (windowindex == 'TRUE') {

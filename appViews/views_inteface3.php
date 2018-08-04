@@ -42,31 +42,33 @@
         <div class="w3-card-2 w3-round-medium" style="width: 90%; height: 40%; margin-left: 20px; margin-right: auto">
             <h4 style="color: black; padding-top: 35px;padding-left:10px"><b>ACCOUNT</b></h4>
             <p style="color: #757575; margin-left: auto; margin-right: 17px; margin-top: -8%; font-size: 12px; text-align: right; ">Edit</p>
-            
+
             <div class="w3-card-2 w3-round-medium" style="width: 90%; height: 10%; margin-left: 15px; margin-right: auto; margin-top:20px">
                 <p style="color: #757575; font-size: 13px; padding-top: 7px; padding-left: 10px; ">Email: SoraShiro@gmail.com</p>
             </div>
-            
+
             <div class="w3-card-2 w3-round-medium" style="width: 90%; height: 10%; margin-left: 15px; margin-right: auto; margin-top: 20px">
                 <p style="color: #757575; font-size: 13px; padding-top: 7px; padding-left: 10px; ">Password: *************</p>
             </div>
-            
+
             <div class="w3-card-2 w3-round-medium" style="width: 90%; height: 10%; margin-left: 15px; margin-right: auto; margin-top: 20px">
                 <p style="color: #757575; font-size: 13px; padding-top: 7px; padding-left: 10px; ">Contact No. : 0975-242-2314</p>
             </div>
-           
+
             <div class="w3-card-2 w3-round-medium" style="width: 90%; height: 10%; margin-left: 15px; margin-right: auto; margin-top: 20px">
                 <p style="color: #757575; font-size: 13px; padding-top: 7px; padding-left: 10px; ">Address: Golden City, Imus Cavite, Cavite</p>
             </div>
 
 
 
-        
+
+
+
+
+        </div>
+
 
 
 
     </div>
-
-
-
 </div>
