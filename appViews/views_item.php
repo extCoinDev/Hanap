@@ -9,7 +9,7 @@
 
     </div>
         -->
-    <
+    
     <div class="w3-display-container w3-card-4" style="background-color:#FFCA28;height:10%;margin-top:-10px">
         
         <div class="w3-display-topleft w3-circle w3-card-4" style="font-size:20px;background-color:white;margin-left:12px;margin-right:auto;margin-top:20px;padding:8px;">
@@ -50,4 +50,49 @@
             <p style="margin-left:10px">Get by 27 Oct - 27 Nov 2019</p>
             </div>
             </div>
+    <div style="margin-top:-5px;">
+        <p style="margin-left:10px;"><b>JJ Company Philippines Official Store </b></p>
+    </div>
+
+    <div class="" style="background-color:black;margin-left:10px;height:20%;width:40%;">
+        
+       
+    </div>
+    <div style="padding-left: 44%;margin-top:-37%;">
+        <h6><strong>ASUS ROG7</strong></h6>
+      
+            <p style="font-size:10px;margin-top:5px">JJCompanyPh.Not Specified.RED</p>
+ </div>
+    <div style="padding-left: 44%;margin-top:-2%;">
+
+        <p style="color: #FFCA28; margin-top: 5px;">P109,000.00</p>
+    </div>
+    <div style ="padding-left: 44%;margin-top:-2%;">
+
+        <p style="margin-top: -5px;display:inline-block"><del>P115.000.00</del></p>
+        <p style="display:inline-block">10%</p>
+    </div>
+
+  
+
+
+    <div class="w3-display-topleft w3-circle " style="font-size:15px;background-color:#FFCA28;margin-left:45%;margin-right:auto;margin-top:105%;padding:6px;">
+
+        <i class="fa fa-heart" style="color:white"> </i>
+    </div>
+
+    <div class="w3-display-topleft w3-circle " style="font-size:15px;background-color:#FFCA28;margin-left:55%;margin-right:auto;margin-top:105%;padding:6px;">
+
+        <i class="fa fa-share-alt" style="color:white"> </i>
+    </div>
+
+    <div class="w3-display-topleft w3-circle " style="font-size:15px;background-color:#FFCA28;margin-left:64%;margin-right:auto;margin-top:105%;padding:6px;">
+
+        <i class="fa fa-trash-alt" style="color:white"> </i>
+    </div>
+
+
+
+
+
 </div>
