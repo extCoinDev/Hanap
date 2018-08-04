@@ -1,4 +1,4 @@
-<div id="pages_interface" c"lass="page animated slideInRight" style="animation-duration:.5s!important; overflow: hidden; z-index: 500 !important;width: 100%; padding-top: 0px; height:100vh; animation-delay:.5s; background-color:white;">
+<div id="pages_interface" class="page animated fadeIn" style="animation-duration:.5s!important; overflow: hidden; z-index: 500 !important;width: 100%; padding-top: 0px; height:100vh; animation-delay:.5s; background-color:white;">
 
   
     <!--<div id="pageMenu_login" class="page_menu" style="animation-duration: .5s; background-color: rgba(0, 0, 0, 0); padding-top:35px; padding-left:15px">
@@ -13,12 +13,12 @@
   <div class="w3-display-container" style="background-color:#FFCA28;width:100%;height:50%;border-bottom-right-radius:15px;border-bottom-left-radius:15px;">
 
     
-      <div class="">
+      <div class="" onclick="showSidebar();">
           <img src="dependencies/images/logo_wname_r.svg" style="text-shadow: 10px 10px 5px grey;width:150px;margin-top:23px;margin-left:15px;"> 
       </div>
           
 
-      <div class="w3-display-topright w3-circle w3-card-4"  style="font-size:30px;color:white;margin-left:auto;margin-right:15px;margin-top:15px;padding:11px">
+      <div class="w3-display-topright w3-circle w3-card-4"  onclick="show_view('pages_myprofile')" style="font-size:30px;color:white;margin-left:auto;margin-right:15px;margin-top:15px;padding:11px">
       <i class="fa fa-user"></i>
        </div>
       
