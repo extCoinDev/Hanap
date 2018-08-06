@@ -1,71 +1,60 @@
-<div id="pages_login" class="page animated slideInRight" style="z-index: 2000; width: 100%; padding-top: 0px;">
-    <div class="page_bkg" style="background: rgba(0, 0, 0, 0.8784313725490196); ">
-        <div id="pageMenu_login" class="page_menu" style="animation-duration: .5s; background-color: rgba(0, 0, 0, 0); padding-top:35px; padding-left:15px">
-            <i class="fa fa-chevron-left" onclick="close_view('pages_login','YES');" style="color:white; font-size:24px"></i>
-            <div style="display: inline-block; position:absolute; margin-top:4px; margin-left:5px">
-                <h6 onclick="close_view('pages_login');" style="display: inline; color: white; font-size: 17px"></h6>
-            </div>
+<div id="pages_login" class="page animated slideInRight" style="animation-duration:.5s!important; overflow: hidden; z-index: 500 !important;width: 100%; padding-top: 0px; height:100vh; animation-delay:.5s">
 
+  
+    <!--<div id="pageMenu_login" class="page_menu" style="animation-duration: .5s; background-color: rgba(0, 0, 0, 0); padding-top:35px; padding-left:15px">
+        <i class="fa fa-chevron-left" onclick="close_view('pages_login','YES');" style="color:white; font-size:24px"></i>
+        <div style="display: inline-block; position:absolute; margin-top:4px; margin-left:5px">
+            <h6 onclick="close_view('pages_login');" style="display: inline; color: white; font-size: 17px"></h6>
         </div>
 
-        <div id="loginForm" class="login-form" style="background-color: rgba(238, 238, 238, 0);  -webkit-animation-duration:.5s">
+    </div>
+        -->
+    <div class="w3-display-middle" style="width: 90%;">
 
-            <form onsubmit="return login();">                
-                <div style=" margin-bottom: 25px;">
-                    <img src="dependencies/images/logo.png" alt="" class="" style="width:128px; display:block; margin-left:auto; margin-right:auto;" />
+        <img src="dependencies/images/logo.svg" style="width:170px;height:170px;margin-top:5px;margin-left:auto;margin-right:auto;display:block">
 
-                    <h6 style="color: #FAFAFA; text-align: center; font-size: 30px; padding-bottom:25px">Wallet Login</h6>
+        <img src="dependencies/images/logo_name.svg" style="display: block; margin-left: auto; margin-right: auto;margin-top:-10%; width: 150px; height: 150px">
+
+        <p style="color: #FFB516; display: block; margin-left: auto; margin-right: auto; width: 150px; height: 150px;text-align:center;margin-top:-10% ">Enter Your Login Credentials</p>
+
+     
+        <div>
+
+            <!--username -->
+            <div>
+                <div class="w3-border-bottom" style="width: 70%; margin-left: auto; margin-right: auto; margin-top: -100px; color: #BDC2C3; ">
+                    <i class="w3-large fa fa-user" style="display:inline"></i>
+                    <input class="w3-input w3-border-0" placeholder="Username" type="text" style="margin-top:auto;text-align:left; width:90%;margin-left:auto;margin-right:auto;font-size:15px;padding-left:10px;display:inline;outline:none">
+
                 </div>
-                
-                <p></p>
-                <div class="form-group-main ">
-                    <input type="text" class="form-control-main" placeholder="Wallet Address" id="usn">
-                    <!--<i class="fa fa-user"></i>-->
+
+                <div class="w3-border-bottom" style="width: 70%; margin-left: auto; margin-right: auto; margin-top: 10px; color: #BDC2C3; ">
+                    <i class="w3-large fa fa-lock" style="display:inline"></i>
+                    <input class="w3-input w3-border-0" placeholder="Password" type="text" style="margin-top:auto;text-align:left; width:90%;margin-left:auto;margin-right:auto;font-size:15px;padding-left:10px;display:inline;outline:none">
+
                 </div>
-                <div class="form-group-main log-status">
-                    <input type="password" class="form-control-main" placeholder="Password" id="pswd">
-                    <!--<i class="fa fa-lock"></i>-->
-                </div>               
 
-                <button type="submit" onclick="" class="log-btn">Log in</button>
-            </form>
-
-            <hr />
-            <p style="text-align:center; color:white">Don't have an account?</p>
-            <p></p>
-            <button type="button" onclick="showSignup();" class="new-acct-btn">Create Account</button>
+                <div>
+                    <p style="color: #FFB516; display: block; margin-top:15%;margin-left: 60%; margin-right: auto; margin-bottom:7%; width: 150px; height: 150px;font-size:10px">Forgot Password?</p>
 
 
-        </div>
-       
-        <div id="signupForm" class="login-form animated fadeIn" style="background-color: rgba(238, 238, 238, 0); display:none; -webkit-animation-duration:.5s; padding-top:10%; height:95vh; overflow:auto">
-            <h1 style="color: #FAFAFA; text-align: center; font-family: 'Century Gothic'; font-size: 30px; padding-bottom:25px">Create new account</h1>
+                    <!--Login-->
 
-            <p></p>
-            <div class="form-group-main">
-                <input type="text" class="form-control-main" onchange="check_address();" placeholder="Wallet Address" id="signup_usn">
-                <!--<i class="fa fa-user"></i>-->
+                    <button class="w3-btn w3-round-xxlarge" onclick="show_view('pages_dashboard'); close_view('pages_login')" style="color: white; background-color: #FFB516;width:90%;height:45px;margin-top:-40%;margin-right:auto;margin-left:auto;display:block;font-size:15px">Login</button>
+
+
+                </div>
             </div>
 
-            <div class="form-group-main">
-                <input type="password" class="form-control-main" placeholder="Password" id="signup_pswd">
-                <!--<i class="fa fa-lock"></i>-->
-            </div>
-
-            <div class="form-group-main">
-                <input type="text" class="form-control-main" placeholder="Sponsor Code" id="signup_sponsor_text">
-                <!--<i class="fa fa-sitemap"></i>-->
-            </div>
-
-            <hr />
-            <button type="button" onclick="trySignup();" class="log-btn">Signup</button>
-
-            <p></p>
-            <button type="button" onclick="hideSignup();" class="cancel-signup-btn">Cancel</button>
-
-
+           
+            
+            
         </div>
 
     </div>
 
+
+
 </div>
+
+

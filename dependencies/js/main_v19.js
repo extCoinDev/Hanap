@@ -32,8 +32,8 @@ window.setTimeout(function () { showSplash(); }, 100);
 function showSplash() {
     hidePreload();
     //window.setTimeout(function () { show_view('pages_splash'); }, 500)
-    //show_view('pages_splash');
-    show_view('pages_hotelreview');
+    show_view('pages_splash');
+    //show_view('pages_hotelreview');
     window.setTimeout(function () {
         document.getElementById('pages_splash').style.animationDelay = '0s';
       
@@ -1349,13 +1349,13 @@ function showMsg_close() {
 }
 
 
-//HAMMER LISTENERS
-  var splash_logo = new Hammer(document.getElementById("splash_logo"));
+////HAMMER LISTENERS
+//  var splash_logo = new Hammer(document.getElementById("splash_logo"));
 
-//HAMMER ACTIONS
-    splash_logo.on("pandown panup tap press", function (ev) {
-        show_view('pages_login');
-    });
+////HAMMER ACTIONS
+//    splash_logo.on("pandown panup tap press", function (ev) {
+//        show_view('pages_login');
+//    });
 
 function draw() {
  
@@ -1533,6 +1533,17 @@ function getExecutes() {
       })
 
 
+}
+
+function darwinPogi(x) {
+    //var x = 'Darwin pogi';
+    console.log(x); 
+}
+
+
+var app_page = {
+    home: function () { show_view('pages_dashboard'); },
+    profile: function () { show_view('pages_myprofile');}
 }
 
 

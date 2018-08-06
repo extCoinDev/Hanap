@@ -1,57 +1,123 @@
-<div id="pages_main" class="animated slideInRight w3-col m8 l9" style="display: none; -webkit-animation-duration: .5s !important; float:right">
-    <div class="page_menu" style="background-color: #FFA000; ">
-        <h5 style="margin-left:auto; position: absolute; margin-right:auto; text-align:center; display:inline-block; width:100%; font-size:20px; font-weight:600; margin-top:3px;; margin-top:3px; margin-top:3px;">Dashboard</h5>
+<div id="pages_dashboard" class="page animated fadeIn" style="animation-duration:.5s!important; overflow: hidden; z-index: 500 !important;width: 100%; padding-top: 0px; height:100vh; animation-delay:.5s; background-color:white;">
 
-        <div style=" position:absolute ; width:100%; left:0; padding-right:15px;padding-left:15px">
-            <i class="fa fa-align-left" onclick="showSidebar();" style="color: white; font-size: 24px; float: left; margin-top: 5px; "></i>
-            <!--<i class="fa fa-user" onclick="showProfile();" style="color: white; font-size: 24px; float: right; margin-top: 5px; "></i>-->
 
+
+    <!--<div id="pageMenu_login" class="page_menu" style="animation-duration: .5s; background-color: rgba(0, 0, 0, 0); padding-top:35px; padding-left:15px">
+        <i class="fa fa-chevron-left" onclick="close_view('pages_login','YES');" style="color:white; font-size:24px"></i>
+        <div style="display: inline-block; position:absolute; margin-top:4px; margin-left:5px">
+            <h6 onclick="close_view('pages_login');" style="display: inline; color: white; font-size: 17px"></h6>
         </div>
+
     </div>
+        -->
 
- <!--FEED BODY-->
-<div id="feed_body" class="feed_body w3-centered w3-center" style="overflow-x:hidden">
-        <!--<h6 style="text-align: center; color: #BDBDBD; margin-top:15px">No threads available</h6>-->
-        <div id="" class="w3-center w3-centered dash_temp" style=" display: block;height: 100%; margin: 0 auto; ">
-            
-            <!--<div class="w3-container w3-round w3-center w3-card-2 animated fadeInUp w3-col m5 l3  tiles_set" onclick="showMsg('This is your total mining power in Mh/s from you and all your downlines','Total Hash Power', 'Okay');" style="-webkit-animation-delay: 0s; background-color: rgb(255, 201, 111); color: white; margin-top: 10px; ">
-                <h4 class="tileTitle">Total Hash Power</h4>
-                <h2><b id="myDaily">0.0 BTC</b></h2>
-                <h5 id="tltNoGenDonation" style="color: rgba(0, 0, 0, 0.33);"></h5>
-            </div>
+    <div class="w3-display-container" style="background-color:#FFCA28;width:100%;height:50%;border-bottom-right-radius:15px;border-bottom-left-radius:15px;">
 
-            <div class="w3-container w3-round w3-center w3-card-2 animated fadeInUp w3-col m5 l3  tiles_set" onclick="showMsg('This is your total reward in BTC from your mining power', 'Total BTC Daily', 'Okay');" style="-webkit-animation-delay: 0.1s; background-color: rgb(255, 201, 111); color: white; margin-top: 10px;">
-                <h4 class="tileTitle">Total BTC Daily</h4>
-                <h2><b id="overview_genBonus">0.0 BTC</b></h2>
-                <h5 style="color: rgba(0, 0, 0, 0.33);" id="shared_donation_desc"></h5>
-            </div>
 
-            <div class="w3-container w3-round w3-center w3-card-2 animated fadeInUp w3-col m5 l3  tiles_set" onclick="showMsg('This is your total balance in your wallet', 'Wallet Balance', 'Okay');" style="-webkit-animation-delay: 0.1s; background-color: rgb(255, 201, 111); color: white; margin-top: 10px;">
-                <h4 class="tileTitle">Wallet Balance</h4>
-                <h2><b id="overview_wallet">0.0 BTC</b></h2>
-                <h5 style="color: rgba(0, 0, 0, 0.33);">You have 0 Total Transaction</h5>
-            </div>
-            
-            <div class="w3-container w3-round w3-center w3-card-2 animated fadeInUp w3-col m5 l3  tiles_set" onclick="showMsg('Your total members below you', 'My Downlines', 'Okay');" style="-webkit-animation-delay: 0.2s; background-color: rgb(255, 201, 111); color: white; margin-top: 10px;">
-                <h4 class="tileTitle">My Downlines</h4>
-                <h2><b id="count_Mypeople">0 </b></h2>
-                <h5 id="lastinvite" style="color: rgba(0, 0, 0, 0.33);"></h5>
-            </div>
-            
-            <div class="w3-container w3-round w3-center w3-card-2 animated fadeInUp w3-col m5 l3  tiles_set" onclick="showMsg('Your earnings from your direct referrals', 'Shared Bonus', 'Okay');" style="-webkit-animation-delay: 0.3s; background-color: rgb(255, 201, 111); color: white; margin-top: 10px;">
-                <h4 class="tileTitle">Shared Bonus</h4>
-                <h2><b id="mypeopleBonus">0.0 BTC</b></h2>
-                <h5 style="color: rgba(0, 0, 0, 0.33);" id="shared_bonus_desc"></h5>
-            </div>
-            
-            <div class="w3-container w3-round w3-center w3-card-2 animated fadeInUp w3-col m5 l3  tiles_set" onclick="showMsg('This is your referral link to share', 'My Link', 'Okay');" style="-webkit-animation-delay: 0.3s; background-color: rgb(255, 201, 111); color: white; margin-top: 10px; ">
-                <h4 class="tileTitle">My Link</h4>
-                <h5><b id="userlink" style="word-wrap:break-word"></b></h5>
-                <h5 style="color: rgba(0, 0, 0, 0.33);" id="userlinkDesc"></h5>
-            </div>-->
+        <div class="" onclick="showSidebar();">
+            <img src="dependencies/images/logo_wname_r.svg" style="text-shadow: 10px 10px 5px grey;width:150px;margin-top:23px;margin-left:15px;">
+        </div>
+
+
+        <div class="w3-display-topright w3-circle w3-card-4" onclick="app_page.profile();" style="font-size:30px;color:white;margin-left:auto;margin-right:15px;margin-top:15px;padding:11px">
+            <i class="fa fa-user"></i>
+        </div>
+
+
+        <div class="w3-round-xxlarge w3-white" style="width:80%;margin-left:10px;margin-right:auto;display:inline-block;margin-top:20px;">
+
+            <i class="fa fa-search" style="padding-left:10px;color:#ccc"></i>
+            <input class="w3-border-0" id="search" placeholder="Search.." style="width:80%;margin-left;margin-right:auto;display:inline;line-height:28px;outline:none">
+
+        </div>
+        <div class="" style="display: inline; padding-top: 16px; padding-right: 23px; height: 58px; float: right; ">
+            <i class="ti-shopping-cart" style="font-size:30px;margin-left:10px;color:white;"> </i>
+        </div>
+
+        <div class="w3-round-xlarge w3-white" style="width:95%;height:62%;margin-left:10px;margin-right:auto;margin-top:10px;">
+
+            <!--PICTURE ADS
+                   <img src="dependencies/images/hqdefault.jpg " style="margin-left:auto;margin-right:auto;display:block;padding-bottom:10px"> -->
+        </div>
+
+        <div class="w3-row s1 m1 l1" style="margin-left:20px;font-family:Arial;margin-top:5px">
+            <h2 class="" style="font-size:25px;display:inline-block"><b>HOT ITEMS</b></h2>
+
+
+            <i class="ti-arrow-circle-left" style="color:#FFCA28;display:inline-block;margin-left:45%"></i>
+            <i class="ti-arrow-circle-right" style="color:#FFCA28;display:inline-block"></i>
+
 
         </div>
 
-</div>
 
+
+
+
+
+
+
+        <!-- ITEMS -->
+        <div class="w3-row s1 m1 l1">
+            <div class="w3-round-xlarge w3-white w3-card-4" style="width:29%;height:30%;margin-left:13px;margin-right:auto;margin-top:5px;display:inline-block">
+            </div>
+
+            <div class="w3-round-xlarge w3-white w3-card-4" style="width:29%;height:30%;margin-right:auto;margin-top:10px;display:inline-block;margin-left:8px;">
+            </div>
+
+            <div class="w3-round-xlarge w3-white w3-card-4" style="width:29%;height:30%;margin-right:auto;margin-top:10px;display:inline-block;margin-left:8px;">
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+        <!-- ICON -->
+
+        <div class="w3-display-container" style="margin-top:85px">
+            <div class="w3-display-bottomright w3-circle w3-card-4" onclick="darwinPogi('OO pogi talga ako');" style="font-size: 30px; background-color: #FFCA28; margin-left: auto; margin-right: 15px; padding: 13px">
+                <i class="ti-comment-alt" style="color:white"></i>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="w3-row s1 m1 l1 w3-display-Bottom Middle" style="background-color: #FFCA28; width: 100%; height: 20%; margin-top:100;">
+
+            <div class="" style="margin-top:10px;padding-top:18px">
+                <i class="fa fa-home" style="color: white; margin-left: 30px; font-size: 30px;display:inline-block"></i>
+
+
+                <i class="fa fa-shopping-bag" style="color:white;margin-left:60px;font-size:30px;display:inline-block;"></i>
+
+                <i class="fa fa-cog" style="color:white;margin-left:60px;font-size:30px;display:inline-block;"></i>
+
+                <i class="fa fa-book" onclick="darwinPogi('ahuehuehue');" style="color:white;margin-left:60px;font-size:30px;display:inline-block;"></i>
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+    </div>
 </div>

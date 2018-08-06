@@ -19,7 +19,7 @@
 
         <!--Login-->
 
-        <button class="w3-btn w3-round-xxlarge" onclick="show_view('pages_splash1','YES');close_view('pages_splash');" style="color: white; background-color: #FFB516;width:90%;height:45px;margin-top:-24%;margin-right:auto;margin-left:auto;display:block;font-size:15px">Login</button>
+        <button class="w3-btn w3-round-xxlarge" onclick="show_view('pages_login'); close_view('pages_splash');" style="color: white; background-color: #FFB516;width:90%;height:45px;margin-top:-24%;margin-right:auto;margin-left:auto;display:block;font-size:15px">Login</button>
 
         <!--Signup-->
 
