@@ -11,7 +11,7 @@
         -->
 
 
-    <div class="w3-row w3-container" style="background-color:#FFCA28;min-height:50px; padding-top:10px; max-height:60px; word-wrap:break-word;padding-left:10px">
+    <div class="w3-row w3-display-container" style="background-color:#FFCA28;min-height:50px; padding-top:10px; max-height:60px; word-wrap:break-word;padding-left:10px">
 
         <div class="w3-col s1 m1 l1" style="font-size:20px;padding-left:1px; padding-top:6px; ">
             <i class="fa fa-arrow-left" style="color:white; text-align:center"> </i>
@@ -149,10 +149,12 @@
     <br />
     <br />
    
-    
-     
-        <div class="w3-display-bottommiddle" style="margin-top:5px;width:100%">
-            <button class="w3-round w3-btn" style="font-size:18px;width:100%;height:30px;background-color:orange;color:white;">PROCEED TO CHECKOUT</button>
-        </div>
+  
 
+        
+            <div class="w3-display-container" style="margin-top:71px;width:100%">
+                <button class="w3-round w3-btn w3-display-bottommiddle" style="font-size:18px;width:100%;height:30px;background-color:orange;color:white;">PROCEED TO CHECKOUT</button>
+            
+        </div>
     </div>
+    

@@ -33,7 +33,7 @@ function showSplash() {
     hidePreload();
     //window.setTimeout(function () { show_view('pages_splash'); }, 500)
     //show_view('pages_splash');
-    show_view('pages_kart');
+    show_view('pages_hotelreview');
     window.setTimeout(function () {
         document.getElementById('pages_splash').style.animationDelay = '0s';
       
