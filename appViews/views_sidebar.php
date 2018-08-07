@@ -52,7 +52,7 @@
               </div>
           </div>-->
 
-        <div onclick="show_view('pages_myprofile'); closeSidebar();" class="sidebar_menu_item w3-ripple">
+        <div onclick="app_page.profile(); closeSidebar();" class="sidebar_menu_item w3-ripple">
             <div class="w3-col s1 sidebar_menu_item_icon">
                 <i class="fas fa-user" onclick="" style="color: orange; font-size: 18px; float: left"></i>
             </div>
