@@ -53,7 +53,7 @@
 
 
 
-
+    </div>
 
 
 
@@ -90,31 +90,30 @@
 
 
 
+        <div class="w3-container">
+        <div class="w3-row w3-display-bottommiddle w3-center" style="background-color: #FFCA28; width: 100%; height: 60px; bottom:0px">
 
-        <div class="w3-row s1 m1 l1 w3-display-Bottom Middle" style="background-color: #FFCA28; width: 100%; height: 20%; margin-top:100;">
+            <div class="" style="margin-top:15px;">
+                <div class="w3-col s3 m3 l3">
+                <i class="fa fa-home" style="color: white; margin-left: 30px; margin-right: 30px; font-size: 30px;display:inline-block"></i>
+                </div>
 
-            <div class="" style="margin-top:10px;padding-top:18px">
-                <i class="fa fa-home" style="color: white; margin-left: 30px; font-size: 30px;display:inline-block"></i>
+                <div class="w3-col s3 m3 l3">  
+                <i class="fa fa-shopping-bag" style="color:white;margin-left:30px; margin-right: 30px;font-size:30px;display:inline-block;"></i>
+                </div>
 
+                <div class="w3-col s3 m3 l3">
+                <i class="fa fa-cog" style="color:white;margin-left:30px; margin-right: 30px;font-size:30px;display:inline-block;"></i>
+                </div>
 
-                <i class="fa fa-shopping-bag" style="color:white;margin-left:60px;font-size:30px;display:inline-block;"></i>
-
-                <i class="fa fa-cog" style="color:white;margin-left:60px;font-size:30px;display:inline-block;"></i>
-
-                <i class="fa fa-book" onclick="darwinPogi('ahuehuehue');" style="color:white;margin-left:60px;font-size:30px;display:inline-block;"></i>
-
+                <div class="w3-col s3 m3 l3">
+                <i class="fa fa-book" onclick="darwinPogi('ahuehuehue');" style="color:white;margin-left:30px; margin-right: 30px;font-size:30px;display:inline-block;"></i>
+                </div>
             </div>
-
-
-
-
-
-
         </div>
 
 
-
-
+        </div>
 
 
 
