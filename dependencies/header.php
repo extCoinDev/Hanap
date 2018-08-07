@@ -28,4 +28,4 @@ header("Pragma: no-cache"); // HTTP 1.0.
 -->
 <!-- Animate CSS -->
 <link href="dependencies/css/animate.css" rel="stylesheet">
-<title>EthXpert</title>
+<title>Hanap</title>
