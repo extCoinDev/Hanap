@@ -33,4 +33,6 @@
 
     <script>
     new WOW().init();
+        $(".btn_ripple").ripple();
+    new WOW().init();
 </script>
