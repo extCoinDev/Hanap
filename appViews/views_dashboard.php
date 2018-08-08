@@ -33,22 +33,24 @@
                    <img src="dependencies/images/hqdefault.jpg " style="margin-left:auto;margin-right:auto;display:block;padding-bottom:10px"> -->
         </div>
 
-        <!-- HOT ITEMS & LEFT AND RIGHT ARROW -->
-        <div class="w3-display-container w3-row" style="margin-left:15px;padding-top:18px">
-            <h2 class="" style="font-size:18px;display:inline-block"><b>Hot Items</b></h2>
 
-            <div class="w3-display-right" style="padding-top: 26px; padding-right:15px">
-            <i class="ti-arrow-circle-left" style="color:#FFCA28;display:inline-block;margin-right:15px; font-size:25px"></i>
-            <i class="ti-arrow-circle-right" style="color:#FFCA28;display:inline-block; font-size:25px"></i>
-            </div>
-
-        </div>
 
     </div>
 
 
     <!-- ITEMS -->
-    <div class="w3-row" style="padding-top:30px;">
+    <div class="w3-row">
+
+        <!-- HOT ITEMS & LEFT AND RIGHT ARROW -->
+        <div class="w3-display-container w3-row" style="margin-left:15px;">
+            <h2 class="" style="font-size:18px;display:inline-block"><b>Hot Items</b></h2>
+
+            <div class="w3-display-right" style="padding-right:15px">
+            <i class="ti-arrow-circle-left" style="color:#FFCA28;display:inline-block;margin-right:15px; font-size:25px"></i>
+            <i class="ti-arrow-circle-right" style="color:#FFCA28;display:inline-block; font-size:25px"></i>
+            </div>
+
+        </div>
     
         <div class="w3-col s4 m4 l4 w3-white" style="height:150px;padding: 10px;">
             <div class="w3-round-xlarge w3-card-2" style="height:100%">
