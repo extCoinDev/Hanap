@@ -15,6 +15,7 @@ header("Pragma: no-cache"); // HTTP 1.0.
 
 <link rel="stylesheet" type="text/css" href="dependencies/css/w3.css">
 <link rel="stylesheet" type="text/css" href="dependencies/css/main_v5.css">
+<link rel="stylesheet" type="text/css" href="dependencies/css/ripple.min.css">
 <link rel="stylesheet" type="text/css" href="dependencies/css/fontawesome-all.min.css">
 <link rel="stylesheet" type="text/css" href="dependencies/css/fa-svg-with-js.css">
 

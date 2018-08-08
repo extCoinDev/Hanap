@@ -14,6 +14,7 @@
     <script src="dependencies/js/jquery.nav.js"></script>
     <script src="dependencies/js/jquery.parallax.js"></script>
     <script src="dependencies/js/owl.carousel.min.js"></script>
+      <script src="dependencies/js/ripple.min.js"></script>
   
     <script src="dependencies/js/wow.min.js"></script>
     <script src="dependencies/js/counter.js"></script>
