@@ -36,8 +36,12 @@
         <!-- HOT ITEMS & LEFT AND RIGHT ARROW -->
         <div class="w3-row" style="margin-left:10px;margin-top:18px">
             <h2 class="" style="font-size:18px;display:inline-block"><b>Hot Items</b></h2>
-            <i class="ti-arrow-circle-left" style="color:#FFCA28;display:inline-block;margin-right:13px; font-size:20px"></i>
-            <i class="ti-arrow-circle-right" style="color:#FFCA28;display:inline-block; font-size:20px"></i>
+
+            <div class="" style="float: right; margin-top:18px">
+            <i class="ti-arrow-circle-left" style="color:#FFCA28;display:inline-block;margin-right:12px; font-size:25px"></i>
+            <i class="ti-arrow-circle-right" style="color:#FFCA28;display:inline-block; font-size:25px"></i>
+            </div>
+
         </div>
 
     </div>
