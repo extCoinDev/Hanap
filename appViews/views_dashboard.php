@@ -70,7 +70,7 @@
     </div>
 
     <!-- MESSAGE ICON -->
-    <div class="w3-display-bottomright" style="margin-bottom:85px; margin-right:5px; z-index:100">
+    <div class="w3-display-bottomright" style="margin-bottom:80px; margin-right:5px; z-index:100">
         <div class="w3-circle w3-card-4 btn_ripple" onclick="" style="font-size: 30px; background-color: #FFCA28; margin-left: auto; margin-right: 15px; padding: 13px;">
             <i class="ti-comment-alt" style="color:white"></i>
         </div>
