@@ -45,7 +45,7 @@
         <div class="w3-display-container w3-row" style="margin-left:15px;">
             <h2 class="" style="font-size:18px;display:inline-block"><b>Hot Items</b></h2>
 
-            <div class="w3-display-right" style="padding-right:15px">
+            <div class="w3-display-right" style="padding-top:15px;padding-right:15px">
             <i class="ti-arrow-circle-left" style="color:#FFCA28;display:inline-block;margin-right:15px; font-size:25px"></i>
             <i class="ti-arrow-circle-right" style="color:#FFCA28;display:inline-block; font-size:25px"></i>
             </div>
