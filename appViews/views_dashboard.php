@@ -33,25 +33,32 @@
                    <img src="dependencies/images/hqdefault.jpg " style="margin-left:auto;margin-right:auto;display:block;padding-bottom:10px"> -->
         </div>
 
-        <div class="w3-row s1 m1 l1" style="margin-left:20px;font-family:Arial;margin-top:5px">
-            <h2 class="" style="font-size:25px;display:inline-block"><b>HOT ITEMS</b></h2>
-            <i class="ti-arrow-circle-left" style="color:#FFCA28;display:inline-block;margin-left:45%"></i>
-            <i class="ti-arrow-circle-right" style="color:#FFCA28;display:inline-block"></i>
+        <!-- HOT ITEMS & LEFT AND RIGHT ARROW -->
+        <div class="w3-row" style="margin-left:10px;margin-top:18px">
+            <h2 class="" style="font-size:18px;display:inline-block"><b>Hot Items</b></h2>
+            <i class="ti-arrow-circle-left" style="color:#FFCA28;display:inline-block;margin-right:13px; font-size:20px"></i>
+            <i class="ti-arrow-circle-right" style="color:#FFCA28;display:inline-block; font-size:20px"></i>
         </div>
 
     </div>
 
 
     <!-- ITEMS -->
-    <div class="w3-row">
+    <div class="w3-row" style="padding-top:30px;">
     
-        <div class="w3-col s4 m4 l4 w3-round-xlarge w3-white w3-card-2" style="height:150px;">
+        <div class="w3-col s4 m4 l4 w3-white" style="height:150px;padding: 10px;">
+            <div class="w3-round-xlarge w3-card-2" style="height:100%">
+            </div>
         </div>
 
-        <div class="w3-col s4 m4 l4 w3-round-xlarge w3-white w3-card-2" style="height:150px;">
+        <div class="w3-col s4 m4 l4 w3-white" style="height:150px; padding: 10px;">
+            <div class="w3-round-xlarge w3-card-2" style="height:100%">
+            </div>
         </div>
 
-        <div class="w3-col s4 m4 l4 w3-round-xlarge w3-white w3-card-2" style="height:150px;">
+        <div class="w3-col s4 m4 l4 w3-white" style="height:150px; padding: 10px;">
+            <div class="w3-round-xlarge w3-card-2" style="height:100%">
+            </div>
         </div>
 
     </div>
