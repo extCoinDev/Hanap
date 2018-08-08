@@ -44,6 +44,7 @@
 
     <!-- ITEMS -->
     <div class="w3-row s1 m1 l1">
+    
         <div class="w3-round-xlarge w3-white w3-card-4" style="width:29%;height:30%;margin-left:13px;margin-right:auto;margin-top:5px;display:inline-block">
         </div>
 
@@ -56,8 +57,8 @@
     </div>
 
     <!-- MESSAGE ICON -->
-    <div class="w3-display-bottomright" style="margin-top:85px z-index:100">
-        <div class=" w3-circle w3-card-4" onclick="" style="font-size: 30px; background-color: #FFCA28; margin-left: auto; margin-right: 15px; padding: 13px;">
+    <div class="w3-display-bottomright" style="margin-bottom:85px; margin-right:5px; z-index:100">
+        <div class="w3-circle w3-card-4" onclick="" style="font-size: 30px; background-color: #FFCA28; margin-left: auto; margin-right: 15px; padding: 13px;">
             <i class="ti-comment-alt" style="color:white"></i>
         </div>
     </div>
