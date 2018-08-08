@@ -40,7 +40,7 @@
 
                     <!--Login-->
 
-                    <button class="w3-btn w3-round-xxlarge" onclick="show_view('pages_dashboard'); close_view('pages_login')" style="color: white; background-color: #FFB516;width:90%;height:45px;margin-top:-40%;margin-right:auto;margin-left:auto;display:block;font-size:15px">Login</button>
+                    <button class="w3-btn w3-round-xxlarge btn_ripple" onclick="show_view('pages_dashboard'); close_view('pages_login')" style="color: white; background-color: #FFB516;width:90%;height:45px;margin-top:-40%;margin-right:auto;margin-left:auto;display:block;font-size:15px">Login</button>
 
 
                 </div>

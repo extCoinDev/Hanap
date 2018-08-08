@@ -9,7 +9,7 @@
     </div>-->
 
     <div class="w3-display-container" style="background-color:#FFCA28;width:100%;height:50%;border-bottom-right-radius:15px;border-bottom-left-radius:15px;">
-        <div class="" onclick="showSidebar();">
+        <div class="btn_ripple" onclick="showSidebar();">
             <img src="dependencies/images/logo_wname_r.svg" style="text-shadow: 10px 10px 5px grey;width:150px;margin-top:23px;margin-left:15px;">
         </div>
 
@@ -69,7 +69,7 @@
 
     <!-- MESSAGE ICON -->
     <div class="w3-display-bottomright" style="margin-bottom:85px; margin-right:5px; z-index:100">
-        <div class="w3-circle w3-card-4" onclick="" style="font-size: 30px; background-color: #FFCA28; margin-left: auto; margin-right: 15px; padding: 13px;">
+        <div class="w3-circle w3-card-4 btn_ripple" onclick="" style="font-size: 30px; background-color: #FFCA28; margin-left: auto; margin-right: 15px; padding: 13px;">
             <i class="ti-comment-alt" style="color:white"></i>
         </div>
     </div>
@@ -79,8 +79,8 @@
         <div class="w3-row w3-display-bottommiddle w3-center" style="background-color: #FFCA28; width: 100%; height: 60px; bottom:0px">
 
             <div class="" style="margin-top:15px;">
-                <div class="w3-col s3 m3 l3">
-                <i class="fa fa-home" onclick="" style="color: white; margin-left: 30px; margin-right: 30px; font-size: 30px;display:inline-block"></i>
+                <div class="w3-col s3 m3 l3 btn_ripple">
+                    <i class="fa fa-home" onclick="" style="color: white; margin-left: 30px; margin-right: 30px; font-size: 30px;display:inline-block"></i>
                 </div>
 
                 <div class="w3-col s3 m3 l3">  
