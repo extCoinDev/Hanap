@@ -43,15 +43,15 @@
 
 
     <!-- ITEMS -->
-    <div class="w3-row s1 m1 l1">
+    <div class="w3-row">
     
-        <div class="w3-round-xlarge w3-white w3-card-2" style="width:120px;height:150px;margin-left:13px;margin-right:auto;margin-top:35px;display:inline-block">
+        <div class="w3-col s4 m4 l4 w3-round-xlarge w3-white w3-card-2" style="height:150px;margin-top:35px;display:inline-block">
         </div>
 
-        <div class="w3-round-xlarge w3-white w3-card-2" style="width:120px;height:150px;margin-right:auto;margin-top:35px;display:inline-block;margin-left:8px;">
+        <div class="w3-col s4 m4 l4 w3-round-xlarge w3-white w3-card-2" style="height:150px;display:inline-block;">
         </div>
 
-        <div class="w3-round-xlarge w3-white w3-card-2" style="width:120px;height:150px;margin-right:auto;margin-top:35px;display:inline-block;margin-left:8px;">
+        <div class="w3-col s4 m4 l4 w3-round-xlarge w3-white w3-card-2" style="height:150px;display:inline-block;">
         </div>
 
     </div>
