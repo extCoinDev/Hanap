@@ -34,11 +34,11 @@
         </div>
 
         <!-- HOT ITEMS & LEFT AND RIGHT ARROW -->
-        <div class="w3-row" style="margin-left:10px;margin-top:18px">
+        <div class="w3-display-container w3-row" style="margin-left:15px;padding-top:18px">
             <h2 class="" style="font-size:18px;display:inline-block"><b>Hot Items</b></h2>
 
-            <div class="" style="float: right; margin-top:18px">
-            <i class="ti-arrow-circle-left" style="color:#FFCA28;display:inline-block;margin-right:12px; font-size:25px"></i>
+            <div class="w3-display-right" style="padding-top: 26px; padding-right:15px">
+            <i class="ti-arrow-circle-left" style="color:#FFCA28;display:inline-block;margin-right:15px; font-size:25px"></i>
             <i class="ti-arrow-circle-right" style="color:#FFCA28;display:inline-block; font-size:25px"></i>
             </div>
 
