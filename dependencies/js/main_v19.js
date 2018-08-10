@@ -26,6 +26,7 @@ var tmp_extequi_buy = 0;
 var tmp_btcequi_buy = 0;
 var tmp_etxtx = '';
 var pageb4 = '';
+var viewindex = 1100;
 
 window.setTimeout(function () { showSplash(); }, 100);
 
@@ -56,27 +57,45 @@ function showScreenGuard() {
     document.getElementById('screenguard').style.display = 'block';
 }
 
-function show_view(view_name) {
-
-
-
+function show_view(view_name, bkg) {
+    viewindex = viewindex + 1;
+    document.getElementById(view_name).style.zIndex = viewindex;
+    view_latest = view_name;
     if (document.body.clientWidth > 599) {
-      
+
         if (windowindex == 'TRUE') {
             closeAllViews(view_name);
             window.setTimeout(function () { document.getElementById(view_name).style.display = 'block'; windowindex = 'TRUE'; }, 600);
         }
         else { document.getElementById(view_name).style.display = 'block'; windowindex = 'TRUE'; }
-        
+
     }
-    else { document.getElementById(view_name).style.display = 'block';}
- 
- if (pageb4 != '') {
-     // document.getElementById(pageb4).classList.add('pageOutfocus');   
-     pageb4 = view_name;
- }
- else { pageb4 = view_name; }
-   
+    else { document.getElementById(view_name).style.display = 'block'; }
+
+    if (bkg == 'YES') {
+        // document.getElementById(pageb4).classList.add('pageOutfocus');   
+        tobkg_view(pageb4);
+
+    }
+    else { pageb4 = view_name; }
+    //console.log(pageb4);
+}
+
+function tobkg_view(view_name) {
+    document.getElementById('screenguard').style.display = 'none';
+    document.getElementById(view_name).className = 'page animated slideOutLeft';
+
+    windowindex = '';
+    //if (pageb4 != '') {
+    //    document.getElementById(pageb4).classList.remove('pageOutfocus');
+    //}
+    setTimeout(function () {
+        document.getElementById(view_name).style.display = 'none';
+        document.getElementById(view_name).className = 'page animated slideInLeft';
+    }, 550)
+
+    pageb4 = view_name;
+    // console.log(pageb4);
 }
 
 function copyToClipboard(elemtname) {
@@ -1543,7 +1562,26 @@ function darwinPogi(x) {
 
 var app_page = {
     home: function () { show_view('pages_dashboard'); },
-    profile: function () { show_view('pages_myprofile');}
+    profile: function () { show_view('pages_myprofile'); },
+    hotelcategories: function () { show_view('pages_hotelcategories'); },
+    hotelreviews: function () { show_view('pages_hotelreview'); },
+    interface4: function () { show_view('pages_interface4'); },
+    interface3: function () { show_view('pages_interface3'); },
+    interface1: function () { show_view('pages_interface1'); },
+    addtocart: function () { show_view('pages_addtocart'); },
+    item: function () { show_view('pages_item'); },
+    kart: function () { show_view('pages_kart'); },
+    login: function () { show_view('pages_login'); },
+    payment: function () { show_view('pages_payment'); },
+    product4: function () { show_view('pages_prod-archs'); },
+    product3: function () { show_view('pages_prod-fash'); },
+    products2: function () { show_view('pages_prod-sports'); },
+    products1: function () { show_view('pages_prod-tech'); },
+    products: function () { show_view('pages_products'); },
+    searchinterface: function () { show_view('pages_search_interface'); },
+   
+
+
 }
 
 

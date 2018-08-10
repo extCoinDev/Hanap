@@ -86,7 +86,7 @@
                 </div>
 
                 <div class="w3-col s3 m3 l3">  
-                <i class="fa fa-shopping-bag" onclick="" style="color:white;margin-left:30px; margin-right: 30px;font-size:30px;display:inline-block;"></i>
+                <i class="fa fa-shopping-bag" onclick="app_page.products();" style="color:white;margin-left:30px; margin-right: 30px;font-size:30px;display:inline-block;"></i>
                 </div>
 
                 <div class="w3-col s3 m3 l3">
