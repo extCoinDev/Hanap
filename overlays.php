@@ -9,7 +9,7 @@
    
 </div>-->
 
- <div id="screenguard" onclick="closeSidebar();" class="page animated fadeIn" style="background-color: rgba(0, 0, 0, 0.50); padding-top:35vh">
+ <div id="screenguard" onclick="closeSidebar();" class="page animated fadeIn" style="background-color: rgba(0, 0, 0, 0.50); padding-top:35vh; z-index:1104">
 </div>
 
 <!--AUTH CONFIRM PAGE-->
