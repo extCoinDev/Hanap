@@ -13,7 +13,7 @@
             <img src="dependencies/images/logo_wname_r.svg" style="text-shadow: 10px 10px 5px grey;width:150px;margin-top:23px;margin-left:15px;">
         </div>
 
-        <div class="w3-display-topright w3-circle w3-card-4" onclick="app_page.profile();" style="font-size:30px;color:white;margin-left:auto;margin-right:15px;margin-top:15px;padding:11px">
+        <div class="w3-display-topright w3-circle w3-card-4" onclick="app_page.profile();" style="font-size:25px;color:white;margin-left:auto;margin-right:15px;margin-top:15px;padding:12px">
             <i class="fa fa-user"></i>
         </div>
 
