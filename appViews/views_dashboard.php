@@ -17,10 +17,10 @@
             <i class="fa fa-user"></i>
         </div>
 
-        <div class="w3-round-xxlarge w3-white" style="width:80%;margin-left:10px;margin-right:auto;display:inline-block;margin-top:20px;">
+        <div class="w3-round-xxlarge w3-white" style="width:80%;margin-left:10px;margin-right:auto;display:inline-block;margin-top:20px;" onclick="show_view('pages_search_interface'); document.getElementById('search_input').focus();">
 
             <i class="fa fa-search" style="padding-left:10px;color:#ccc"></i>
-            <input class="w3-border-0" id="search" placeholder="Search.." style="width:80%;margin-left;margin-right:auto;display:inline;line-height:28px;outline:none">
+            <input class="w3-border-0" id="search" placeholder="Search.." style="width:80%;margin-left;margin-right:auto;display:inline;line-height:28px;outline:none;background-color:white" disabled>
 
         </div>
 
