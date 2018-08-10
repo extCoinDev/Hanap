@@ -15,7 +15,7 @@
         <div class="w3-col s11 m12 l12" style="padding-right:15px;padding-left:15px; float:right">
             <div class="w3-round-xxlarge w3-white" style="max-width:600px; min-width:200px;margin-right:auto; margin-left:auto; display:block;" >          
                 <i class="fa fa-search" style="padding-left:15px;color:#ccc;margin-top:10px;margin-bottom:10px"></i>
-                <input class="w3-border-0" id="search" placeholder="Search.." style="width:80%;margin-right:auto;display:inline;line-height:28px;outline:none">
+                <input class="w3-border-0" id="search_input" placeholder="Search.." style="width:80%;margin-right:auto;display:inline;line-height:28px;outline:none">
             </div> 
         </div>
 
