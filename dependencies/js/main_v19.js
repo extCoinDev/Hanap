@@ -1543,7 +1543,26 @@ function darwinPogi(x) {
 
 var app_page = {
     home: function () { show_view('pages_dashboard'); },
-    profile: function () { show_view('pages_myprofile');}
+    profile: function () { show_view('pages_myprofile'); },
+    hotelcategories: function () { show_view('pages_hotelcategories'); },
+    hotelreviews: function () { show_view('pages_hotelreview'); },
+    interface4: function () { show_view('pages_interface4'); },
+    interface3: function () { show_view('pages_interface3'); },
+    interface1: function () { show_view('pages_interface1'); },
+    addtocart: function () { show_view('pages_addtocart'); },
+    item: function () { show_view('pages_item'); },
+    kart: function () { show_view('pages_kart'); },
+    login: function () { show_view('pages_login'); },
+    payment: function () { show_view('pages_payment'); },
+    product4: function () { show_view('pages_prod-archs'); },
+    product3: function () { show_view('pages_prod-fash'); },
+    products2: function () { show_view('pages_prod-sports'); },
+    products1: function () { show_view('pages_prod-tech'); },
+    products: function () { show_view('pages_products'); },
+    searchinterface: function () { show_view('pages_search_interface'); },
+   
+
+
 }
 
 
