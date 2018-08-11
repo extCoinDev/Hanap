@@ -10,6 +10,8 @@
     </div>
         -->
     
+                <div id="feed_body" class="feed_body" style="-webkit-animation-duration: .8s !important">
+
     <div class="w3-card-4"  style="background-color: #FFCA28; height: 10%; width:100%;margin-top:-20px;text-align:center;padding-top:5px;color:white;">
        
         <div class="" style="font-family:Arial">
@@ -30,4 +32,4 @@
     </div>
     <div class="w3-round-large" style="background-color:black;height:15%;width:95%;margin-top:10px;margin-left:auto;margin-right:auto;display:block">
     </div>
-</div>
+</div></div>
