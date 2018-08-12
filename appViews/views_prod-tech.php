@@ -1,6 +1,5 @@
 <div id="pages_prod_tech" class="page animated slideInRight" style="animation-duration:.5s!important; overflow: hidden; z-index: 500 !important;width: 100%; padding-top: 0px; height:100vh;">
 
-  
     <!--PAGE MENU-->
     <div class="page_menu" style="background-color: #FFA000; ">
         <!--MENU TITLE-->
@@ -17,11 +16,11 @@
         </div>
     </div>
     <!--PAGE MENU END--> 
-
-
+    
     <!--BODY-->
     <div id="feed_body" class="feed_body w3-centered w3-center" style="overflow-x:hidden">
 
+
         <div class="w3-round-large" style="background-color:black;height:15%;width:95%;margin-top:10px;margin-left:auto;margin-right:auto;display:block">
         </div>
 
@@ -33,12 +32,13 @@
         </div>
         <div class="w3-round-large" style="background-color:black;height:15%;width:95%;margin-top:10px;margin-left:auto;margin-right:auto;display:block">
         </div>
+    </div>
+    <!--BODY END-->
+             
+
 
     </div>
 
-    <!--BODY END-->
 
 
-    
-</div>
-
+   

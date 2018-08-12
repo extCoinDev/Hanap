@@ -33,7 +33,7 @@ window.setTimeout(function () { showSplash(); }, 100);
 function showSplash() {
     hidePreload();
     //window.setTimeout(function () { show_view('pages_splash'); }, 500)
-    show_view('pages_refund');
+    show_view('pages_prod_tech');
     //show_view('pages_hotelreview');
     window.setTimeout(function () {
         document.getElementById('pages_splash').style.animationDelay = '0s';
