@@ -1,11 +1,3 @@
-﻿<?php
-//header("Cache-Control: no-cache, no-store, must-revalidate"); // HTTP 1.1.
-header("Pragma: no-cache"); // HTTP 1.0.
-//header("Expires: 0");
-//include('connection.php');
-
-?>
-
 <!--<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
 <meta http-equiv="Pragma" content="no-cache"/>
 <meta http-equiv="Expires" content="0"/>-->
@@ -18,7 +10,6 @@ header("Pragma: no-cache"); // HTTP 1.0.
 <link rel="stylesheet" type="text/css" href="dependencies/css/ripple.min.css">
 <link rel="stylesheet" type="text/css" href="dependencies/css/fontawesome-all.min.css">
 <link rel="stylesheet" type="text/css" href="dependencies/css/fa-svg-with-js.css">
-
 
 <link rel="stylesheet" href="dependencies/css/bootstrap.min.css"> 
 <link rel="stylesheet" href="dependencies/css/themify-icons.css"> 

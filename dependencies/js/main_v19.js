@@ -33,7 +33,7 @@ window.setTimeout(function () { showSplash(); }, 100);
 function showSplash() {
     hidePreload();
     //window.setTimeout(function () { show_view('pages_splash'); }, 500)
-    show_view('pages_splash');
+    show_view('pages_refund');
     //show_view('pages_hotelreview');
     window.setTimeout(function () {
         document.getElementById('pages_splash').style.animationDelay = '0s';
@@ -1574,13 +1574,12 @@ var app_page = {
     login: function () { show_view('pages_login'); },
     payment: function () { show_view('pages_payment'); },
     products4: function () { show_view('pages_prod-archs'); },
-    products3: function () { show_view('pages_prod-fash'); },
-    products2: function () { show_view('pages_prod-sports'); },
-    products1: function () { show_view('pages_prod-tech'); },
+    products3: function () { show_view('pages_prod_fash'); },
+    products2: function () { show_view('pages_prod_sports'); },
+    products1: function () { show_view('pages_prod_tech'); },
     products: function () { show_view('pages_products'); },
     searchinterface: function () { show_view('pages_search_interface'); },
    
-
 
 }
 

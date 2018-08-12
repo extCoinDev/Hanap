@@ -26,20 +26,21 @@
 
         <!--Middle-->
 
-        <div class="w3-display-topmiddle w3-circle w3-white" style="margin-top:5%">
+        <div class="w3-display-topmiddle w3-circle w3-white profile_user_image" style="margin-top:5%">
 
-            <i class="fa fa-user" style="color:black;padding:30px;font-size:130px"></i>
+            <i class="fa fa-user" style="color:black;padding:30px"></i>
         </div>
 
-        <div>
-            <h1 style="color:black; display: block; margin-left: 26%; margin-right: auto;margin-top:4% ">Sora Shiro</h1>
-            <p style="color: #757575; display: block; margin-left: auto; margin-right: 77px; margin-top: -8%; font-size: 10px; text-align: right; ">Edit</p>
+        <div style="text-align:center">
+            <h1 style="color:black;margin-top:4%;display:inline-block">Sora Shiro</h1>
+            <p style="color: #757575; margin-left: auto; margin-top: -8%; font-size: 10px; display: inline-block">Edit</p>
+        </div>
+
             <p style="color: #757575; display: block; margin-left: auto; margin-right: 0%; margin-top: 2%; font-size: 12px; text-align: center; ">Manila, Philippines</p>
-        </div>
-
+       
 
         <!--ACCOUNT-->
-        <div class="w3-card-2 w3-round-medium" style="width: 90%; height: 40%; margin-left: 20px; margin-right: auto">
+        <div class="w3-card-2 w3-round-medium" style="width: 90%; height: 48%; margin-left: 20px; margin-right: auto">
             <h4 style="color: black; padding-top: 35px;padding-left:10px"><b>ACCOUNT</b></h4>
             <p style="color: #757575; margin-left: auto; margin-right: 17px; margin-top: -8%; font-size: 12px; text-align: right; ">Edit</p>
 
@@ -55,8 +56,8 @@
                 <p style="color: #757575; font-size: 13px; padding-top: 7px; padding-left: 10px; ">Contact No. : 0975-242-2314</p>
             </div>
 
-            <div class="w3-card-2 w3-round-medium" style="width: 90%; height: 10%; margin-left: 15px; margin-right: auto; margin-top: 20px">
-                <p style="color: #757575; font-size: 13px; padding-top: 7px; padding-left: 10px; ">Address: Golden City, Imus Cavite, Cavite</p>
+            <div class="w3-card-2 w3-round-medium profile_email_address" style="width: 90%; height: 10%; margin-left: 15px; margin-right: auto; margin-top: 20px">
+                <p style="color: #757575; padding-top: 7px; padding-left: 10px; ">Address: Golden City, Imus Cavite, Cavite</p>
             </div>
 
 

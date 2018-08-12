@@ -145,6 +145,32 @@ html {
    
 }
 
+   .convo_thread_timestamp
+    {
+        font-size:12px;
+
+
+    }
+
+    .profile_user_image
+    {
+
+        font-size:130px;
+
+    }
+
+    .profile_text_margin
+    {
+        padding-top:7px
+
+    }
+   
+    .profile_email_address
+    {
+
+        font-size:12px;
+    }
+
 @media (max-width:320px) {
     .dex
     {
@@ -152,6 +178,32 @@ html {
         color: white;
         margin-top:50px
 }
+
+    .convo_thread_timestamp
+    {
+        font-size:9px;
+
+
+    }
+    
+    .profile_user_image
+    {
+
+        font-size:100px;
+
+    }
+
+    .profile_text_margin
+    {
+        padding-top:2px
+
+    }
+   
+    .profile_email_address
+    {
+        font-size:12px
+
+    }
 
 
 }
