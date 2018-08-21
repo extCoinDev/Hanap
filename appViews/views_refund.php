@@ -19,7 +19,7 @@
 
 
  <!--BODY-->
-<div id="feed_body" class="feed_body w3-centered w3-center" style="overflow-x:hidden">
+<div id="feed_body" class="feed_body w3-centered w3-center" style="overflow-x:hidden;padding-left:0px;padding-right:0px">
        
     <hr style="width:100%;color:black;margin-top:0px;margin-bottom:0px;" />
 

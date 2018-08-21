@@ -171,6 +171,20 @@ html {
         font-size:12px;
     }
 
+     .account_setting
+    {
+        width:140px;
+        height:129px;
+       
+    }
+
+     .merchant_notification
+    {
+        height: 4%;
+        width: 7%;
+    }
+
+
 @media (max-width:320px) {
     .dex
     {
@@ -205,6 +219,18 @@ html {
 
     }
 
+    .account_setting
+    {
+        width:127px;
+        height:122px;
+      
+    }
+
+     .merchant_notification
+    {
+        height: 5%;
+        width: 8%;
+    }
 
 }
 
@@ -224,7 +250,7 @@ html {
         margin-top:20px
 }
 
-
+   
 }
 
 .dex2
@@ -235,14 +261,38 @@ html {
         
 }
 
-@media (max-width:320px) {
-    .dex2
+@media (max-width:375px) {
+     .merchant_notification
     {
-        font-size: 20px;
-        
-        margin-top:10px;
-        
+        height: 5%;
+        width: 8%;
+    }
+
+   
 }
+
+@media (max-width:320px) {
+    .dex2 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+     .merchant_notification
+    {
+        height: 6%;
+        width: 9%;
+    }
+}
+
+@media (min-width:414px)
+{
+
+     .merchant_notification
+    {
+        height: 5%;
+        width: 8%;
+    }
+
 
 
 }
